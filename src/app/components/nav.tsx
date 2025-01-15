@@ -1,7 +1,7 @@
 export const Nav = () => {
   return (
     <div>
-      <pre className="text-[#58A6FF] font-extrabold">
+      <pre className="h-fit text-[#58A6FF] font-extrabold">
         {`
   _____                                      
  |  __ \\                                     
@@ -12,12 +12,6 @@ export const Nav = () => {
                                              
       `}
       </pre>
-      <div className="text-gray-300 font-normal">
-        <p>Welcome to my portfolio!</p>
-        <p>Type help to get a list of available commands.</p>
-
-        <p>Use ↑ and ↓ to navigate command history.</p>
-      </div>
     </div>
   )
 }

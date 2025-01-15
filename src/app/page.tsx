@@ -1,8 +1,10 @@
-
-export default function Home(){
+import { Nav } from './components/nav'
+export default function Home() {
   return (
     <div>
-      hello world
+      <div className="w-fit m-auto">
+        <Nav />
+      </div>
     </div>
-  );
+  )
 }

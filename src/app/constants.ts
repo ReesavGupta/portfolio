@@ -20,7 +20,7 @@ import projects from './components/projects'
 import Resume from './components/resume'
 import Experience from './components/experience'
 import Goals from './components/goals'
-import Clicks from './components/Clicks'
+import Clicks from './components/clicks'
 import Blogs from './components/blogs'
 
 export const commandComponents: { [key: string]: React.FC } = {
@@ -32,6 +32,6 @@ export const commandComponents: { [key: string]: React.FC } = {
   resume: Resume,
   experience: Experience,
   goals: Goals,
-  click: Clicks,
+  clicks: Clicks,
   blogs: Blogs,
 }

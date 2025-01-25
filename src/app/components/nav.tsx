@@ -1,6 +1,6 @@
 export const Nav = () => {
   return (
-    <div>
+    <div className=" h-fit ">
       <pre className="h-fit text-[#58A6FF] font-extrabold">
         {`
   _____                                      

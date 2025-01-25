@@ -100,7 +100,7 @@ export const TextBox = () => {
 
   return (
     <div>
-      <div className="w-[46rem] m-auto mt-5 p-4 bg-[#0D1117] text-white font-mono">
+      <div className="w-[46rem] m-auto mt-1 p-4 bg-[#0D1117] text-white font-mono">
         {output.map(({ command }, index) => {
           const CommandComponent = commandComponents[command]
           return (
@@ -115,7 +115,7 @@ export const TextBox = () => {
                 <span className="text-white">{command}</span>
               </p>
               {CommandComponent ? (
-                <div className="ml-4">
+                <div className="ml-7 mt-1">
                   <CommandComponent />
                 </div>
               ) : (

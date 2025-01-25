@@ -115,7 +115,9 @@ export const TextBox = () => {
                 <span className="text-white">{command}</span>
               </p>
               {CommandComponent ? (
-                <CommandComponent />
+                <div className="ml-4">
+                  <CommandComponent />
+                </div>
               ) : (
                 <p className="text-gray-300">
                   "{command}" is not a recognized command.

@@ -1,19 +1,19 @@
 export const Socials = () => (
-  <div className="space-y-2">
+  <div className="space-y-2 text-gray-400">
     <p>Find me on the interwebs:</p>
     <div className="flex  gap-4">
       <div>
         <p>
-          <span className="text-orange-500">GitHub:</span>{' '}
+          <span className="text-orange-300">GitHub:</span>{' '}
         </p>
         <p>
-          <span className="text-orange-500">LinkedIn:</span>{' '}
+          <span className="text-orange-300">LinkedIn:</span>{' '}
         </p>
         <p>
-          <span className="text-orange-500">X (Twitter):</span>{' '}
+          <span className="text-orange-300">X (Twitter):</span>{' '}
         </p>
         <p>
-          <span className="text-orange-500">Email:</span>{' '}
+          <span className="text-orange-300">Email:</span>{' '}
         </p>
       </div>
       <div>
@@ -22,7 +22,7 @@ export const Socials = () => (
             href="https://github.com/jerry"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-[#58A6FF]"
+            className="text-[#58A6FF] hover:bg-gray-400 hover:text-blue-700 p-1 "
           >
             ReesavGupta
           </a>{' '}
@@ -33,7 +33,7 @@ export const Socials = () => (
             href="https://linkedin.com/in/jerry"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-[#58A6FF]"
+            className="text-[#58A6FF] hover:bg-gray-400 hover:text-blue-700 p-1 "
           >
             Reesav Gupta
           </a>{' '}
@@ -44,7 +44,7 @@ export const Socials = () => (
             href="https://x.com/jerry"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-[#58A6FF]"
+            className="text-[#58A6FF] hover:bg-gray-400 hover:text-blue-700 p-1 "
           >
             reesavGupta
           </a>{' '}
@@ -53,13 +53,13 @@ export const Socials = () => (
         <div>
           <a
             href="mailto:reesav.gupta.pri@gmail.com"
-            className="text-[#58A6FF]"
+            className="text-[#58A6FF] hover:bg-gray-400 hover:text-blue-700 p-1 "
           >
             reesav.gupta.pri@gmail.com
           </a>{' '}
         </div>
       </div>
     </div>
-    <p className="text-gray-400">Feel free to reach out!</p>
+    <p className="text-gray-400">Feel free to reach out! ^^</p>
   </div>
 )

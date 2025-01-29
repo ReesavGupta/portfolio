@@ -1,19 +1,19 @@
 export const Help = () => (
-  <div>
-    <p className="text-[#EA8F13] my-1">Available commands:</p>
+  <div className="text-gray-400">
+    <p className="text-orange-300 my-1">Available commands:</p>
     <div className="flex gap-24 ">
-      <ul className="space-y-1">
-        <li>🌟 about</li>
-        <li>🌐 socials</li>
-        <li>💻 skills</li>
-        <li>🚀 projects</li>
-        <li>📄 resume</li>
-        <li>💼 experience</li>
-        <li>🎯 goals</li>
-        <li>📸 clicks</li>
-        <li>🧹 clear</li>
-        <li>✍ blogs</li>
-        <li>⛔ sudo rm -rf /*</li>
+      <ul className="space-y-1 ">
+        <li>⨋ about</li>
+        <li>ↂ socials</li>
+        <li>⨝ skills</li>
+        <li>∅ projects</li>
+        <li>Ŕ resume</li>
+        <li>∄ experience</li>
+        <li>⊆ goals</li>
+        <li>∎ clicks</li>
+        <li>⋰ clear</li>
+        <li>⫚ blogs</li>
+        <li>⨂ sudo rm -rf /*</li>
       </ul>
       <ul className="text-gray-400 space-y-1">
         <li>- Learn more about me</li>

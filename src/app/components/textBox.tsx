@@ -109,9 +109,7 @@ export const TextBox = () => {
               className="mb-2"
             >
               <p>
-                <span className="text-teal-500 font-extrabold">
-                  visitor@reesav~$
-                </span>{' '}
+                <span className="text-teal-500 ">visitor@reesav~$</span>{' '}
                 <span className="text-white">{command}</span>
               </p>
               {CommandComponent ? (
@@ -127,9 +125,7 @@ export const TextBox = () => {
           )
         })}
         <div className="flex">
-          <p className="text-teal-500 font-extrabold inline mr-1">
-            visitor@reesav~$
-          </p>
+          <p className="text-teal-500  inline mr-1">visitor@reesav~$</p>
           <div className="relative w-full inline-block">
             <form onSubmit={handleOnSubmit}>
               <input

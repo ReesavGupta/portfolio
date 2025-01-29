@@ -1,3 +1,12 @@
+import { useEffect } from 'react'
+
 export default function Resume() {
-  return <div>hello from resume</div>
+  useEffect(() => {
+    const newTab = window.open('/Reesav.pdf', '_blank')
+    if (!newTab) {
+      window.location.href = '/Reesav.pdf'
+    }
+  }, [])
+
+  return <div className="text-gray-400">Opening my resume ...</div>
 }

@@ -1,6 +1,6 @@
 export const Help = () => (
   <div className="text-gray-400">
-    <p className="text-orange-300 my-1">Available commands:</p>
+    <p className="text-orange-300 my-1">These be thy spells:</p>
     <div className="flex gap-24 ">
       <ul className="space-y-1 ">
         <li>⨋ about</li>

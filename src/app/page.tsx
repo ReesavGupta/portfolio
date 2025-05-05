@@ -7,14 +7,16 @@ export default function Home() {
   const { input } = useInput()
   return (
     <div>
-      <div className="w-fit m-auto">
-        <Nav />
-      </div>
-      <div className="w-fit relative left-80 -mt-5">
-        <Header />
-      </div>
-      <div>
-        <TextBox />
+      <div className=" w-fit m-auto flex justify-center items-center flex-col ">
+        <div className=" w-fit m-auto">
+          <Nav />
+        </div>
+        <div className=" w-full -mt-5 m-auto">
+          <Header />
+        </div>
+        <div>
+          <TextBox />
+        </div>
       </div>
     </div>
   )

@@ -10,8 +10,9 @@ export const Header = () => {
       </p>
 
       <p>
-        Use <span className=" text-orange-300">↑</span> and{' '}
-        <span className=" text-orange-300">↓</span> to navigate command history.
+        Use <span className=" text-orange-300">tab</span>
+        <span className=" text-orange-300"> </span> for autocompletion of
+        command
       </p>
     </div>
   )
